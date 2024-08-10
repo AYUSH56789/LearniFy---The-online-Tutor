@@ -5,6 +5,7 @@ const { dbConnect } = require("./connection");
 const cookieParser=require('cookie-parser');
 const { authRouter } = require('./routes/authRouter');
 const { testimonialsRouter } = require('./routes/testimonialsRouter');
+const { notesRouter } = require('./routes/notesRouter');
 const app=express();
 
 // variable;
@@ -30,6 +31,7 @@ app.use(cookieParser()); //it is used to parse thr cookie
 // routes middilewares
 app.use('/api/v1/auth',authRouter);
 app.use('/api/v1/testimonials',testimonialsRouter);
+app.use('/api/v1/notes',notesRouter);
 
 
 app.listen(port,()=>{console.log(`server is start on port ${port}`)})
