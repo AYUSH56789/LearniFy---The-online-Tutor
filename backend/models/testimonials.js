@@ -15,7 +15,7 @@ const testimonialSchema=new mongoose.Schema({
         type:String,
         required:true,
     }
-})
+},{timestamps:true})
 
 const Testimonial=mongoose.model('Testimonial',testimonialSchema);
 module.exports={
