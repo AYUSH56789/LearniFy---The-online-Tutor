@@ -32,19 +32,19 @@ const router = createBrowserRouter([
         element: <Resources />,
         children: [
           {
-            path: "ielts",
+            path: "ielts" ,
             element: <IELTS />
           },
           {
-            path: "pte",
-            element: <PTE />
+            path: "pte" ,
+            element: <PTE/>
           },
           {
-            path: "spoken-english",
+            path: "spoken-english" ,
             element: <SpokenEnglish />
           },
           {
-            path: "duolingo",
+            path: "duolingo" ,
             element: <Duolingo />
           }
         ]

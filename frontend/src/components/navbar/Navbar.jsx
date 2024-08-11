@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import flamingoLogo from "./flamingo_logo.png";
 
@@ -11,22 +11,22 @@ function Navbar() {
             <img src={flamingoLogo} alt="flamingo" />
         </div>
         <div className='menu-links'>
-            <ul><Link to="/">Home</Link></ul>
-            <ul><Link to="/courses">Courses</Link></ul>
+            <ul><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink></ul>
+            <ul><NavLink to="/courses" className={({ isActive }) => (isActive ? 'active' : '')}>Courses</NavLink></ul>
             <ul className='dropdown'>
-                <Link to="/resources">Resources <span className='arrow'>▼</span></Link>
+                <NavLink to="/resources" className={({ isActive }) => (isActive ? 'active' : '')}>Resources <span className='arrow'>▼</span></NavLink>
                 <div className="dropdown-content">
-                    <Link to="/resources/ielts">IELTS</Link>
-                    <Link to="/resources/pte">PTE</Link>
-                    <Link to="/resources/spoken-english">Spoken English</Link>
-                    <Link to="/resources/duolingo">Duolingo</Link>
+                    <NavLink to="/resources/ielts" className={({ isActive }) => (isActive ? 'active' : '')}>IELTS</NavLink>
+                    <NavLink to="/resources/pte" className={({ isActive }) => (isActive ? 'active' : '')}>PTE</NavLink>
+                    <NavLink to="/resources/spoken-english" className={({ isActive }) => (isActive ? 'active' : '')}>Spoken English</NavLink>
+                    <NavLink to="/resources/duolingo" className={({ isActive }) => (isActive ? 'active' : '')}>Duolingo</NavLink>
                 </div>
             </ul>
-            <ul><Link to="/mocktest">Mock Test</Link></ul>
+            <ul><NavLink to="/mocktest" className={({ isActive }) => (isActive ? 'active' : '')}>Mock Test</NavLink></ul>
         </div>
         <div className='login-btn'>
-            <Link to="/login"><button>Login</button></Link>
-            <Link to="/signup"><button>Signup</button></Link>
+            <NavLink to="/login"><button className='btn1'>Login</button></NavLink>
+            <NavLink to="/signup"><button className='btn2'>Signup</button></NavLink>
         </div>
       </nav>
     </>
