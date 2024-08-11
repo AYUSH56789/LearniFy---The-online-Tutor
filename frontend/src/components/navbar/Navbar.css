@@ -1,0 +1,127 @@
+/* Main navigation bar */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 99px; /* Maintain the height of the navbar */
+}
+
+/* Logo styling */
+.logo img {
+    width: 115px; /* Adjust the width according to your logo */
+    margin-left: 75px; /* Adjusts the left margin */
+    margin-top: 10px;
+}
+
+/* Menu links styling */
+.menu-links {
+    display: flex;
+    gap: 20px; /* Decreased gap between menu links */
+    margin-left: auto; /* Aligns menu links to the right, with more space from the logo */
+    margin-right: 40px; /* Additional gap between logo and menu links */
+}
+
+.menu-links ul {
+    list-style: none;
+    margin: 0;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: #262626; /* Blue color for links */
+    font-weight: 600;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.menu-links a:hover {
+    color: #F53DEE;
+    ; /* Darker blue on hover */
+    border-bottom: 2px solid #F53DEE;
+}
+
+/* Login and Signup buttons styling */
+.login-btn {
+    display: flex;
+    gap: 20px; /* Same gap between buttons and menu links */
+    margin-right: 115px; /* Margin from the right side */
+}
+
+.login-btn button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Login button styling */
+.login-btn button:first-child {
+    background-color: #F53DEE; /* Pink background for Login */
+    color: #ffffff; /* White text for Login */
+}
+
+/* Signup button styling */
+.login-btn button:last-child {
+    background-color: #ffffff; /* White background for Signup */
+    color: #F53DEE; /* Pink text for Signup */
+    border: 2px solid #F53DEE; /* Pink border for Signup */
+}
+
+.login-btn button:hover:first-child {
+    background-color: #F53DEE; /* Lighter pink on hover for Login */
+}
+
+.login-btn button:hover:last-child {
+    background-color: #f0f0f0; /* Slightly darker shade for Signup on hover */
+}
+
+/* Add padding to the body so content doesn't hide behind the fixed navbar */
+body {
+    padding-top: 99px; /* Adjust according to the height of your navbar */
+}
+
+/* Dropdown menu styling */
+.dropdown {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #262626;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.arrow {
+    margin-left: 8px; /* Space between link text and arrow */
+    font-size: 14px; /* Size of the arrow */
+    line-height: 0; /* Aligns arrow properly */
+    display: inline-block;
+    transition: transform 0.3s ease; /* Optional: add transition for arrow rotation */
+}
