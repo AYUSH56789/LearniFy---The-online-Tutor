@@ -14,12 +14,12 @@ function Navbar() {
             <ul><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink></ul>
             <ul><NavLink to="/courses" className={({ isActive }) => (isActive ? 'active' : '')}>Courses</NavLink></ul>
             <ul className='dropdown'>
-                <NavLink to="/resources" className={({ isActive }) => (isActive ? 'active' : '')}>Resources <span className='arrow'>▼</span></NavLink>
+                <NavLink to="" className={({ isActive }) => (isActive ? 'active' : '')}>Resources <span className='arrow'>▼</span></NavLink>
                 <div className="dropdown-content">
-                    <NavLink to="/resources/ielts" className={({ isActive }) => (isActive ? 'active' : '')}>IELTS</NavLink>
-                    <NavLink to="/resources/pte" className={({ isActive }) => (isActive ? 'active' : '')}>PTE</NavLink>
-                    <NavLink to="/resources/spoken-english" className={({ isActive }) => (isActive ? 'active' : '')}>Spoken English</NavLink>
-                    <NavLink to="/resources/duolingo" className={({ isActive }) => (isActive ? 'active' : '')}>Duolingo</NavLink>
+                    <NavLink to="/ielts" className={({ isActive }) => (isActive ? 'active' : '')}>IELTS</NavLink>
+                    <NavLink to="/pte" className={({ isActive }) => (isActive ? 'active' : '')}>PTE</NavLink>
+                    <NavLink to="/spoken-english" className={({ isActive }) => (isActive ? 'active' : '')}>Spoken English</NavLink>
+                    <NavLink to="/duolingo" className={({ isActive }) => (isActive ? 'active' : '')}>Duolingo</NavLink>
                 </div>
             </ul>
             <ul><NavLink to="/mocktest" className={({ isActive }) => (isActive ? 'active' : '')}>Mock Test</NavLink></ul>

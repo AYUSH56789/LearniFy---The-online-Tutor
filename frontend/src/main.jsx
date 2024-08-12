@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
 import Home from './components/home/Home.jsx';
 import Courses from './components/courses/Courses.jsx';
-import Resources from './components/resources/Resources.jsx';
+// import Resources from './components/resources/Resources.jsx';
 import IELTS from './components/resources/ielts/IELTS.jsx';
 import PTE from './components/resources/pte/PTE.jsx';
 import SpokenEnglish from './components/resources/spokenenglish/SpokenEnglish.jsx';
@@ -27,28 +27,28 @@ const router = createBrowserRouter([
         path: "courses",
         element: <Courses />
       },
+      // {
+      //   path: "resources",
+      //   element: <Resources />,
+      //   children: [
       {
-        path: "resources",
-        element: <Resources />,
-        children: [
-          {
-            path: "ielts" ,
-            element: <IELTS />
-          },
-          {
-            path: "pte" ,
-            element: <PTE/>
-          },
-          {
-            path: "spoken-english" ,
-            element: <SpokenEnglish />
-          },
-          {
-            path: "duolingo" ,
-            element: <Duolingo />
-          }
-        ]
+        path: "ielts" ,
+        element: <IELTS />
       },
+      {
+        path: "pte" ,
+            element: <PTE/>
+      },
+      {
+        path: "spoken-english" ,
+        element: <SpokenEnglish />
+      },
+      {
+        path: "duolingo" ,
+        element: <Duolingo />
+      },
+      //   ]
+      // },
       {
         path: "mocktest",
         element: <MockTest />
