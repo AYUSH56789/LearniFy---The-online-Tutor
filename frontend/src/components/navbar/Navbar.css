@@ -20,12 +20,22 @@
     margin-top: 10px;
 }
 
+/* Menu icon styling (Hamburger menu) */
+.menu-icon {
+    display: none;
+    color: #262626;
+    font-size: 28px;
+    cursor: pointer;
+}
+
 /* Menu links styling */
 .menu-links {
     display: flex;
     gap: 20px; /* Decreased gap between menu links */
     margin-left: auto; /* Aligns menu links to the right, with more space from the logo */
     margin-right: 40px; /* Additional gap between logo and menu links */
+    align-items: center;
+    transition: all 0.3s ease;
 }
 
 .menu-links ul {
@@ -41,6 +51,12 @@
     transition: color 0.3s ease;
     font-family: "DM Sans", sans-serif;
 }
+#rsc{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+}
 
 .menu-links a:hover,
 .menu-links a.active {
@@ -49,13 +65,13 @@
 }
 
 /* Login and Signup buttons styling */
-.login-btn {
+.login-signup {
     display: flex;
     gap: 20px; /* Same gap between buttons and menu links */
     margin-right: 115px; /* Margin from the right side */
 }
 
-.login-btn button {
+.login-signup button {
     padding: 10px 20px;
     border: 2px solid #F53DEE;
     border-radius: 5px;
@@ -84,7 +100,7 @@
     background-color: #f0f0f0; /* Slightly darker shade for Signup on hover */
 }
 
-.login-btn button:focus {
+.login-signup button:focus {
     outline: none; /* Remove default outline */
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2); /* Add a custom focus outline */
 }
@@ -129,4 +145,59 @@ body {
     line-height: 0; /* Aligns arrow properly */
     display: inline-block;
     transition: transform 0.3s ease; /* Optional: add transition for arrow rotation */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        margin-right: 20px; /* Added margin to the right of the menu icon */
+    }
+
+    .menu-links {
+        position: absolute;
+        top: 99px;
+        right: 0;
+        background-color: #ffffff;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%; /* Opens only half of the screen */
+        height: calc(100vh - 99px);
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        padding: 20px;
+    }
+
+    .menu-links.active {
+        transform: translateX(0);
+        box-shadow: -3px 0 5px rgba(0, 0, 0, 0.2); /* Box shadow to indicate the menu is open */
+    }
+
+    .menu-links ul {
+        width: 100%;
+    }
+
+    .menu-links ul a {
+        padding: 20px;
+        width: 100%;
+        display: block;
+        text-align: left;
+        font-size: 16px; /* Decrease font size to match menu links */
+    }
+
+    .login-signup {
+        flex-direction: column;
+        width: 70%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .login-signup button {
+        width: 100%; /* Match button size to menu links */
+        padding: 10px 20px; /* Adjust padding for consistency with menu links */
+        font-size: 16px; /* Adjust font size to match menu links */
+        margin-top: 10px;
+        text-align: center;
+    }
 }
