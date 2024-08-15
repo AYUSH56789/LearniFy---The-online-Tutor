@@ -1,9 +1,9 @@
 .footer {
     background-color: #000; /* Black background */
     color: #fff; /* White text */
-    width: 240%;
+    width: 100%;
     max-width: 1578px;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     box-sizing: border-box;
   }
   
@@ -65,7 +65,8 @@
   }
 
   .foot-logo{
-    margin-left: 400px;
+    margin-left: 0px;
+    margin-right: auto;
 
   }
   

@@ -20,7 +20,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='main-nav'>
+      <nav className='main-nav' style={{padding:0}}>
         <div className='logo'>
           <img src={flamingoLogo} alt="flamingo" />
         </div>
