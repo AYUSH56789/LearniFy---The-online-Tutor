@@ -14,7 +14,7 @@ const Footer = () => {
           <p>Phone: 9779945798</p>
           <p>Mail: flamingo121@gmail.com</p>
         </div>
-        <div>
+        <div className='logo-div'>
           <img className="foot-logo" src={flamingoLogo} alt="Flamingo" />
         </div>
         <div className="footer-section quick-links">
