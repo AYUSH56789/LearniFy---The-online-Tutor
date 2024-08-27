@@ -1,0 +1,105 @@
+/* body {
+    font-family: Arial, sans-serif;
+} */
+
+.card {
+    width: 325px;
+    height: 368px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 13px 0px rgba(230, 230, 230, 0.9);
+    overflow: hidden;
+    background-color: #fff;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px; /* Added padding to the card for spacing */
+}
+
+.card-img-container {
+    position: relative;
+}
+.card-img {
+    width: 100%;
+    height: 202px; /* Adjust height as needed */
+    object-fit: cover;
+}
+
+.card-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.heart-icon {
+    font-size: 24px; /* Adjust size as needed */
+    cursor: pointer;
+    border: 2px solid white; /* Make the heart icon visible with a white border */
+    border-radius: 50%; /* Round border */
+    padding: 5px; /* Adjust padding for appearance */
+}
+
+.card-content {
+    padding: 10px;
+    flex: 1;
+}
+
+.course-title {
+    font-size: 1.2em;
+    font-weight: 700px;
+    margin: 0;
+    font-family: "DM Sans" , sans-sarif;
+}
+
+.author-name {
+    color: #777;
+    margin: 5px 0 10px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.price {
+    font-size: 1em;
+    margin: 10px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    
+}
+
+.new-price {
+    font-weight: bold;
+    color: #000;
+    margin-right: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.discount {
+    color: green;
+    font-weight: bold;
+}
+
+.buy-now-btn {
+    background-color: #F53DEE;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: 286px;
+    height: 40px;
+    margin: 0 auto 20px auto; /* Centered button with margin at the bottom */
+}
+
+.buy-now-btn:hover {
+    background-color: #e600e6;
+}

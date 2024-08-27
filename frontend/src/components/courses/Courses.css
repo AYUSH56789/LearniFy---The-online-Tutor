@@ -1,0 +1,6 @@
+.courses-container {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between cards */
+    gap: 20px; /* Optional: adds space between the cards */
+    padding: 20px; /* Optional: adds padding around the container */
+}
