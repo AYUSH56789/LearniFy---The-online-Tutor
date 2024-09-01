@@ -9,9 +9,6 @@ function CourseList() {
         <Card />
         <Card />
         <Card />
-      </div>
-
-      <div className="courses-list-container-2">
         <Card />
         <Card />
         <Card />

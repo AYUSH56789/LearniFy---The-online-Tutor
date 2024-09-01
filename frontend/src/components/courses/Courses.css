@@ -50,21 +50,29 @@
      background-color: #cc00cc; /* Darken the button on hover */
  }
 
-.left-container{
+ .course-content{
     display: flex;
-    flex: 15;
+    width: inherit;
+    overflow-y: scroll;
+ }
+.left-container{
+    padding: 20px;
+    width: 18vw;
+    height: 70vh;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
  .right-container{
-    display: flex;
-    flex :  85 ;
-    margin-top: 30px;
-    justify-content: center;
-   
+    /* overflow-x: scroll; */
+    padding: 20px;
+    width: 80vw;
+    height: 70vh;
  }
 
- .course-content{
+ .right-upper{
     display: flex;
+    justify-content: flex-end;
  }
 
 

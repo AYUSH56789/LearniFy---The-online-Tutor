@@ -34,7 +34,7 @@ function Courses() {
               style={{
                 fontFamily: "DM Sans , sans-serif",
                 fontWeight: 500,
-                fontSize:"25px"
+                fontSize: "25px",
               }}
             >
               Explore Now
@@ -43,29 +43,22 @@ function Courses() {
         </div>
       </div>
 
-      <CoursesNav/>
+      <CoursesNav />
 
       <div className="course-content">
-      <div className="left-container">
-        <CourseFilter/>
-      </div>
-
-      <div className="right-container">
-        <div className="right-upper">
-          <CourseSearch/>
-
+        <div className="left-container">
+          <CourseFilter />
         </div>
-        <div className="right-lower">
-          <CourseList/>
-    
 
+        <div className="right-container">
+          <div className="right-upper">
+            <CourseSearch />
+          </div>
+          <div className="right-lower">
+            <CourseList />
+          </div>
         </div>
       </div>
-
-
-      </div>
-
-
 
       <div className="courses-container">
         {/* <h2>this is courses page of flamingo</h2> */}
