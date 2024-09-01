@@ -1,0 +1,26 @@
+.filter-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Adjust width as needed */
+    margin-right: 20px; /* Space between filter and cards */
+  }
+  
+  .filter-item {
+    margin-bottom: 20px;
+  }
+  
+  .filter-item label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .filter-item select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  

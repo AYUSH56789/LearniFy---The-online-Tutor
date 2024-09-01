@@ -1,0 +1,37 @@
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #F35DEE; /* Pink border */
+    border-radius: 30px; /* Rounded corners for the search bar */
+    overflow: hidden; /* Ensures the border-radius is applied to children */
+    width: fit-content; /* Adjust based on design requirements */
+    width: 358px;
+    height: 37px;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #B0B0B0; /* Light gray placeholder text color */
+    flex: 1; /* Allows the input to grow and fill available space */
+  }
+  
+  .search-button {
+    background-color: #F35DEE; /* Pink background for the button */
+    color: white; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px; /* Rounded corners on the right side */
+    transition: background-color 0.3s ease;
+    width: 128px;
+    height: 100%;
+  }
+  
+  .search-button:hover {
+    background-color: #D400D4; /* Darker pink on hover */
+  }
+  
