@@ -1,10 +1,8 @@
 .filter-container {
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 200px; /* Adjust width as needed */
-    margin-right: 20px; /* Space between filter and cards */
+  /* padding: 20px; */
+  background-color: #fff;
+  border-radius: 10px;
+  width: inherit;
   }
   
   .filter-item {

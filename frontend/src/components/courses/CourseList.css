@@ -1,20 +1,14 @@
 .courses-list-container-1{
     display: flex;
     /* flex-direction: column; */
-    justify-content: space-between;
-    gap: 50px;
-    /* padding: 20px; */
-}
-.courses-list-container-2{
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-    gap: 50px;
+    /* justify-content: space-between; */
+    gap: 28px;
+    flex-flow: wrap;
     /* padding: 20px; */
 }
 
 .courses-list{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     /* margin-right: 60px; */
     
     
