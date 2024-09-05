@@ -11,10 +11,13 @@
 
 /* Styling for the form container */
 .signup-form {
-  flex: 1;
+  background-color: white;
   padding: 40px;
-  /* border: 1px solid #ddd; */
-  border-radius: 15px; /* Rounded corners */
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
 }
 
 /* Styling for the heading inside the form */

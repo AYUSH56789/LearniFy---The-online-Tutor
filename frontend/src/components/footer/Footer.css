@@ -2,7 +2,7 @@
     background-color: #000; /* Black background */
     color: #fff; /* White text */
     width: 100%;
-    max-width: 1578px;
+    /* max-width: 1578px; */
     /* padding: 20px 0; */
     box-sizing: border-box;
   }
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1512px;
+    /* max-width: 1512px; */
     margin: 0 auto;
     padding: 0 20px;
   }
