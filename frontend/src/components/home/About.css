@@ -1,0 +1,56 @@
+.about-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #F8F9FC;
+  }
+  
+  .about-heading {
+    font-size: 40px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #262626;
+  }
+
+  .about-heading-line {
+    width: 210px;
+    height: 3px; 
+    background-color: #F53EEE; 
+    margin: 0 auto 20px auto; 
+  }
+  
+  .about-description {
+    font-size: 18px;
+    color: #262626;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin-bottom: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+  }
+  
+  .about-carousel-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Slick slider custom dot styles */
+  .slick-dots li button:before {
+    color:  #F53EEE;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color:  #F53EEE; /* Active dot color */
+  }
+  
