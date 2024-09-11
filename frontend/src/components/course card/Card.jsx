@@ -30,7 +30,7 @@ const Card = () => {
 
         <div className="card-content">
           <h2 className="course-title">Master Spoken English</h2>
-          <p className="author-name">By Ayush Singh</p>
+          <p className="author-name">By Dhruv Ayush</p>
           <p className="price">
             <span className="new-price">Rs. 2000</span>
             <span className="old-price">1000</span>
