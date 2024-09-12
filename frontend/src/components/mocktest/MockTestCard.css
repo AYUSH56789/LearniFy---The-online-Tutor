@@ -1,78 +1,88 @@
+.mocktestCardContainer{
+  padding: 30px 20px;
+}
+.mocktestCard{
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-display: row;
+  gap: 100px;
+  flex-wrap: wrap;
+}
 .mock-test-card {
-    background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    width: 280px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-    margin: 20px auto; /* Center it horizontally */
-  }
-  
-  .icon-container {
-    background-color: #fce7fe; /* Light background for the icon */
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-bottom: 15px;
-  }
-  
-  .icon {
-    font-size: 28px;
-    color: #ff00ff; /* Icon color matching the design */
-  }
-  
-  .card-content h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
-  .card-content .subject {
-    color: gray;
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
-  
-  .pricing {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .price {
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 10px;
-  }
-  
-  .original-price {
-    text-decoration: line-through;
-    color: gray;
-    margin-right: 10px;
-  }
-  
-  .discount {
-    color: #00c853; /* Green color for discount */
-    font-size: 16px;
-  }
-  
-  .buy-button {
-    background-color: #ff00ff; /* Button color */
-    color: white;
-    border: none;
-    border-radius: 25px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .buy-button:hover {
-    background-color: #d600d6; /* Darker button color on hover */
-  }
-  
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  min-width: 280px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  /* margin: 20px auto; Center it horizontally */
+}
+
+.icon-container {
+  background-color: #fce7fe; /* Light background for the icon */
+  border-radius: 30%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.icon {
+  font-size: 28px;
+  color: #ff00ff; /* Icon color matching the design */
+}
+
+.card-content {
+  font-size: 18px;
+  font-weight: bold;
+  /* margin: 10px 0; */
+}
+
+.card-content .subject {
+  color: gray;
+  font-size: 14px;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-right: 10px;
+}
+
+.discount {
+  color: #00c853; /* Green color for discount */
+  font-size: 16px;
+}
+
+.buy-button {
+  background-color: #ff00ff; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buy-button:hover {
+  background-color: #d600d6; /* Darker button color on hover */
+}

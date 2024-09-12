@@ -2,7 +2,7 @@
     position: relative;
     width: inherit;
     height: 80vh;
-    background-image: url('/images/mockHero.png'); /* Use your actual image path */
+    background-image: url('/images/mockHero.png');  
     background-size: cover;
     background-position: center;
     display: flex;
