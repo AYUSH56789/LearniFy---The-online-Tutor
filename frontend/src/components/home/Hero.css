@@ -50,7 +50,8 @@
   }
   
   .courses-btn:hover {
-    background-color: #cc00cc; 
+    /* background-color: #cc00cc;  */
+    font-size: 17px;
   }
   
   .demo-btn {
@@ -62,8 +63,12 @@
   }
   
   .demo-btn:hover {
-    background-color: #F8F9FC;
-    color: #ff0fff;
+    background-color: #ff00ff;
+    color: white;
+    border: 2px solid #ff00ff;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: "poppins";
   }
   
   .image-section {

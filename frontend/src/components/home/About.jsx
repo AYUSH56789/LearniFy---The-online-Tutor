@@ -31,21 +31,21 @@ function About() {
         <Slider {...settings}>
           <div>
             <img
-              src="about_1.png"
+              src="/images/about1.png"
               alt="Students 1"
               className="about-image"
             />
           </div>
           <div>
             <img
-              src="about_1.png"
+              src="/images/about1.png"
               alt="Students 2"
               className="about-image"
             />
           </div>
           <div>
             <img
-              src="about_1.png"
+              src="/images/about1.png"
               alt="Students 3"
               className="about-image"
             />

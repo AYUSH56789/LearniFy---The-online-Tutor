@@ -1,12 +1,12 @@
 import React from 'react'
 import "./Mocktest.css" 
 import Mock_card from './Mock_card/Mock_card'
+import MockHero from './MockHero'
 
 function Mocktest() {
   return (
     <div>
-      <h2>page for mocktests</h2>
-      <Mock_card/>
+      <MockHero/>
     </div>
   )
 }

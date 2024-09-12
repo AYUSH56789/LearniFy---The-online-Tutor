@@ -9,7 +9,7 @@
     box-shadow: 5px 5px 13px 0px rgba(230, 230, 230, 0.9);
     overflow: hidden;
     background-color: #fff;
-    margin: 20px auto;
+    /* margin: 20px auto; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -1,0 +1,63 @@
+.mock-hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url('../../../public/images/mockHero.png'); /* Use your actual image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* A semi-transparent overlay */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .dropdown-container {
+    margin-bottom: 20px;
+  }
+  
+  select {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: white;
+  }
+  
+  select:focus {
+    outline: none;
+  }
+  
+  .demo-button {
+    background-color: #ff00ff; /* Matches the button color from the image */
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .demo-button:hover {
+    background-color: #d600d6;
+  }
+  

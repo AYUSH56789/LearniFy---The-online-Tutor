@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Card.css";
 import { FaHeart } from "react-icons/fa" ;
 
-const Card = () => {
+const Card = ({imgUrl}) => {
   const [liked, setLiked] = useState(false);
 
   const handleLikeClick = () => {
@@ -14,7 +14,7 @@ const Card = () => {
       <div className="card">
         <div className="card-img-container">
           <img
-            src="https://picsum.photos/200/300"
+            src={imgUrl}
             alt="Course Image"
             className="card-img"
           />
@@ -23,6 +23,7 @@ const Card = () => {
             className="like-button"
             onClick={handleLikeClick}
             style={{ color: liked ? 'red' : 'white' }}
+            size={30}
             />
 
           </div>
