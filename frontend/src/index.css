@@ -70,3 +70,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+
+/* 
+ */
+.heading-text{
+  font-family: "DM sans";
+  font-size: 25px;
+}
+.content-text{
+  font-family: "popins";
+  font-size: 18px;
+}

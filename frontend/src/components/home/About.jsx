@@ -38,14 +38,21 @@ function About() {
           </div>
           <div>
             <img
-              src="/images/about1.png"
+              src="/course-main-image.jpeg"
               alt="Students 2"
               className="about-image"
             />
           </div>
           <div>
             <img
-              src="/images/about1.png"
+              src="/images/about3.png"
+              alt="Students 3"
+              className="about-image"
+            />
+          </div>
+          <div>
+            <img
+              src="/images/about4.png"
               alt="Students 3"
               className="about-image"
             />

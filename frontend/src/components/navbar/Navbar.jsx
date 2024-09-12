@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './Navbar.css';
-import flamingoLogo from "./flamingo_logo.png";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,7 +21,7 @@ function Navbar() {
     <>
       <nav className='main-nav' style={{padding:0}}>
         <div className='logo'>
-          <img src={flamingoLogo} alt="flamingo" />
+          <img src="/images/logo.png" alt="flamingo" />
         </div>
         <div className={`menu-icon ${menuOpen ? 'active' : ''}`} onClick={handleMenuToggle}>
           &#9776;

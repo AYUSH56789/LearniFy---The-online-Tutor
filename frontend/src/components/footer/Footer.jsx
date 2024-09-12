@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; 
 import './Footer.css';
-import flamingoLogo from "./flamingo_logo.png";
+
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
           <p>Mail: flamingo121@gmail.com</p>
         </div>
         <div className='logo-div'>
-          <img className="foot-logo" src={flamingoLogo} alt="Flamingo" />
+          <img className="foot-logo" src="/images/logo.png" alt="Flamingo" />
         </div>
         <div className="footer-section quick-links">
           <h2>Quick Link</h2>

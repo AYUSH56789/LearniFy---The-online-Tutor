@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import './MockHero.css'; // Adjusting for your file naming
+import React, { useState } from "react";
+import "./MockHero.css"; // Adjusting for your file naming
 
 const MockHero = () => {
-  const [selectedSubject, setSelectedSubject] = useState('');
+  const [selectedSubject, setSelectedSubject] = useState("");
 
   const handleSubjectChange = (e) => {
     setSelectedSubject(e.target.value);
@@ -12,17 +12,18 @@ const MockHero = () => {
     if (selectedSubject) {
       alert(`Starting demo test for: ${selectedSubject}`);
     } else {
-      alert('Please select a subject');
+      alert("Please select a subject");
     }
   };
 
   return (
     <div className="mock-hero">
-      {/* <div className="overlay"> */}
-        <h1>Practice by giving Mock-test</h1>
-        <p>
-          Flamingo provides you a platform where you can test your knowledge and also get a score card.
-          On the basis of your performance you get some rewards points, that help you get some discounts on our courses.
+      <div className="mockTestContent" >
+        <h1 className="heading-text mockTestHeadigStyle">Practice by giving Mock-test</h1>
+        <p className="content-text mockTestContentStyle">
+          Flamingo provides you a platform where you can test your knowledge and
+          also get a score card. On the basis of your performance you get some
+          rewards points, that help you get some discounts on our courses.
         </p>
         <div className="dropdown-container">
           <select value={selectedSubject} onChange={handleSubjectChange}>
@@ -34,10 +35,15 @@ const MockHero = () => {
             {/* Add more subjects as needed */}
           </select>
         </div>
-        <button className="demo-button" onClick={handleStartDemo}>
+        <button className="mockestdemo-button " onClick={handleStartDemo} style={{
+                fontFamily: "DM Sans , sans-serif",
+                fontWeight: 450,
+                
+                fontSize: "18px",
+              }}>
           Start Demo-Test
         </button>
-      {/* </div> */}
+      </div>
     </div>
   );
 };
