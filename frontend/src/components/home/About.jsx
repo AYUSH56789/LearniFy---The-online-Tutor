@@ -20,7 +20,7 @@ function About() {
   return (
     <div>
             <section className="about-section">
-      <h1 className="about-heading">About Flamingo</h1>
+      <h1 className="about-heading">About Learnify</h1>
       <div className="about-heading-line"></div> 
       <p className="about-description">
    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi libero, eos doloribus at obcaecati soluta aut quasi similique neque, facere quaerat? Iusto modi perferendis asperiores!

@@ -85,6 +85,10 @@
     font-weight: bold;
 }
 
+.discount{
+    color: green;
+}
+
 .buy-now-btn {
     background-color: #F53DEE;
     color: #fff;
@@ -97,7 +101,7 @@
     font-weight: 500;
     width: 286px;
     height: 40px;
-    margin: 0 auto 20px auto; /* Centered button with margin at the bottom */
+    margin: 0 20px auto; /* Centered button with margin at the bottom */
 }
 
 .buy-now-btn:hover {

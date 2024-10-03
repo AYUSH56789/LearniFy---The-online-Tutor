@@ -13,6 +13,7 @@ import Duolingo from './components/resources/duolingo/Duolingo.jsx';
 import MockTest from './components/mocktest/MockTest.jsx';
 import Login from './components/login/Login.jsx';
 import Signup from './components/signup/Signup.jsx';
+// import CourseDetail from './components/course detail/CourseDetail.jsx';
 
 const router = createBrowserRouter([
   {
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
         path: "signup",
         element: <Signup />
       }
+      // {
+      //   path:"course-detail",
+      //   element:<CourseDetail/>
+      // }
     ]
   }
 ]);

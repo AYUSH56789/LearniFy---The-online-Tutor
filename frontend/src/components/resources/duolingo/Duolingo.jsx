@@ -1,9 +1,11 @@
 import React from 'react'
+import "./Duolingo.css"
+import ResourceCard from '../../resource card/ResourceCard'
 
 function Duolingo() {
   return (
     <div>
-      <h2>duolingo page</h2>
+      <ResourceCard/>
     </div>
   )
 }

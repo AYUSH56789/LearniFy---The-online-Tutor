@@ -9,10 +9,10 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-section address">
           <h2>Address</h2>
-          <p>1st Floor, Opp GNE COLLEGE,</p>
-          <p>Gill Road, Ludhiana - 141003 (Main Gate)</p>
+          <p>1st Floor, Tuition Market,</p>
+          <p>Model Town, Ludhiana - 141001</p>
           <p>Phone: 9779945798</p>
-          <p>Mail: flamingo121@gmail.com</p>
+          <p>Mail: learnify121@gmail.com</p>
         </div>
         <div className='logo-div'>
           <img className="foot-logo" src="/images/logo.png" alt="Flamingo" />
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>COPYRIGHT © 2023 - Flamingo | ALL RIGHTS RESERVED</p>
+        <p>COPYRIGHT © 2023 - Learnify | ALL RIGHTS RESERVED</p>
       </div>
     </footer>
   );

@@ -21,7 +21,7 @@ function Navbar() {
     <>
       <nav className='main-nav' style={{padding:0}}>
         <div className='logo'>
-          <img src="/images/logo.png" alt="flamingo" />
+          <a href='/'><img src="/images/logo.png" alt="flamingo" /></a>
         </div>
         <div className={`menu-icon ${menuOpen ? 'active' : ''}`} onClick={handleMenuToggle}>
           &#9776;

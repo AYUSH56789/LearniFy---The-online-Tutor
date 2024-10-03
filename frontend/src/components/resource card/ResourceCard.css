@@ -1,0 +1,74 @@
+/* ResourceCard.css */
+
+.learnify-resource-card {
+    width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(0.1, 0.1, 0.1, 0.1);
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.learnify-resource-card:hover {
+    transform: scale(1.05);
+}
+
+.learnify-icon-container {
+    background-color: #f7f4ff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learnify-pdf-icon {
+    width: 40px;
+    height: 40px;
+}
+/* 
+.res_card_content{
+    display: flex;
+    align-items: left;
+} */
+
+.learnify-card-title {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    text-align: left;
+}
+
+.learnify-card-subtitle {
+    color: #8a8a8a;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    font-weight: 400;
+    text-align: left;
+}
+
+.learnify-download-btn {
+    display: inline-block;
+    width: 210px;
+    height: 30px;
+    background-color: #F53DEE;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Poppins";
+    transition: background-color 0.2s;
+    align-items: center;
+    justify-content: center;
+}
+
+.learnify-download-btn:hover {
+    background-color: #ff66e5;
+}

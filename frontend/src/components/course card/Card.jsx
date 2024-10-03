@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Card.css";
 import { FaHeart } from "react-icons/fa" ;
+import { Link } from 'react-router-dom';
+
 
 const Card = ({imgUrl}) => {
   const [liked, setLiked] = useState(false);
@@ -8,6 +10,10 @@ const Card = ({imgUrl}) => {
   const handleLikeClick = () => {
     setLiked(!liked);
   };
+
+  // const handleBuyNowClick = () => {
+  //   navigate('/course-detail'); 
+  // };
 
   return (
     <div>
@@ -38,7 +44,9 @@ const Card = ({imgUrl}) => {
             <span className="discount">50% off</span>
           </p>
         </div>
-        <button className="buy-now-btn">Buy Now</button>
+        <Link to="/course-detail">
+          <button className="buy-now-btn">Buy Now</button>
+        </Link>
       </div>
     </div>
   );

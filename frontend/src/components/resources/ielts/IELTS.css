@@ -1,0 +1,27 @@
+/* IELTSResources.css */
+
+.ielts-resource-list {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.ielts-resource-heading {
+    font-size: 2em;
+    color: #333;
+}
+
+.ielts-underline {
+    width: 150px;
+    height: 2px;
+    background-color: #ff00ff;
+    margin: -18px auto 40px;
+}
+
+.ielts-grid-container {
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
