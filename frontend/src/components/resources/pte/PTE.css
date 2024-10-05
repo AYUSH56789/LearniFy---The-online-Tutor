@@ -1,21 +1,21 @@
-.duolingo-resource-list {
+.pte-resource-list {
     padding: 30px 20px;
     text-align: center;
 }
 
-.duolingo-resource-heading {
+.pte-resource-heading {
     font-size: 2em;
     color: #333;
 }
 
-.duolingo-underline {
+.pte-underline {
     width: 150px;
     height: 2px;
     background-color: #ff00ff;
     margin: -18px auto 40px;
 }
 
-.duolingo-grid-container {
+.pte-grid-container {
     margin-top: 50px;
     display: flex;
     align-content: center;

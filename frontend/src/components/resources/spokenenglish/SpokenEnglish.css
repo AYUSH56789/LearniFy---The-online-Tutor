@@ -1,21 +1,21 @@
-.duolingo-resource-list {
+.spoken-english-resource-list {
     padding: 30px 20px;
     text-align: center;
 }
 
-.duolingo-resource-heading {
+.spoken-english-resource-heading {
     font-size: 2em;
     color: #333;
 }
 
-.duolingo-underline {
+.spoken-english-underline {
     width: 150px;
     height: 2px;
     background-color: #ff00ff;
     margin: -18px auto 40px;
 }
 
-.duolingo-grid-container {
+.spoken-english-grid-container {
     margin-top: 50px;
     display: flex;
     align-content: center;
