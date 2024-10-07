@@ -1,0 +1,87 @@
+/* Container for the admin login section */
+.admin-login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the form container */
+  .admin-login-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Styling for the form heading */
+  .admin-login-form h2 {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "DM Sans , sans-serif";
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #ff00ff; /* Different color to distinguish admin login */
+    padding: 20px 0;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  /* Form input fields */
+  .admin-login-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the submit button */
+  .admin-login-form button {
+    background-color: #ff00ff; /* Different color for admin login */
+    color: white;
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  /* Button hover effect */
+  .admin-login-form button:hover {
+    background-color: #ff00ff;
+  }
+  
+  /* Admin login footer links */
+  .admin-login-footer {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .admin-login-footer a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+  
+  .admin-login-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .admin-login-form {
+      width: 90%;
+    }
+  }
+  

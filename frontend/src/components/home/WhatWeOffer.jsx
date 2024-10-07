@@ -5,5 +5,7 @@ export default function WhatWeOffer() {
     <div className='whatWeOffer'>
       <img src="/images/whatWeOffer.png" alt="what we offer" />
     </div>
+
+
   )
 }
