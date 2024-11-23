@@ -15,6 +15,7 @@ import Login from "./components/login/Login.jsx";
 import Signup from "./components/signup/Signup.jsx";
 import AdminLogin from "./components/admin login/AdminLogin.jsx";
 import AdminSignup from "./components/admin signup/AdminSignup.jsx";
+import AdminMainDashboard from "./components/admin dashboard/AdminMainDashboard.jsx";
 // import CourseDetail from './components/course detail/CourseDetail.jsx';
 
 const router = createBrowserRouter([
@@ -73,6 +74,11 @@ const router = createBrowserRouter([
       {
         path : "admin-signup" ,
         element : <AdminSignup/>
+      } ,
+
+      {
+        path: "admin-dashboard",
+        element : <AdminMainDashboard/>
       }
 
       // {

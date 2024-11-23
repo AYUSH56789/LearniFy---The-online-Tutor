@@ -13,8 +13,7 @@ function App() {
     <Outlet/>
     {/* <Courses/> */}
     <Footer/>
-    </>
-    
+    </>                                                                  
   )
 }
 

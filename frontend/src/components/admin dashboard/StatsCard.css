@@ -1,0 +1,33 @@
+/* StatsCards.css */
+.stats-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 2px #F53DEE ;
+  }
+  
+  .stat-card {
+    background-color: white;
+    padding: 20px;
+    width: 234px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border-bottom: 2px solid #F53DEE;
+  }
+  
+  .stat-icon {
+    font-size: 2rem;
+    margin-right: 15px;
+    color: #F53DEE;
+  }
+  
+  .stat-info h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: black;
+    font-family: "DM Sans";
+    font-weight: 500;
+  }
+  

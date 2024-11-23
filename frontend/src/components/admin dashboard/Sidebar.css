@@ -1,0 +1,47 @@
+/* Sidebar.css */
+.sidebar {
+    width: 300px;
+    background-color: #F53DEE;
+    color: white;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;
+  }
+  
+  .sidebar-header {
+    text-align: center;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px ;
+  }
+  
+  .sidebar-menu li {
+    margin: 30px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .sidebar-menu li a{
+    color: white;
+  }
+  
+  .sidebar-menu li svg {
+    margin-right: 10px;
+  }
+  
+  .logout-btn {
+    background-color: white;
+    color: #F53DEE;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: "Poppins";
+  }
+  

@@ -1,0 +1,20 @@
+/* MainDashboard.css */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px; /* Adjust width as needed */
+  }
+  
+  .dashboard-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .dashboard-header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  

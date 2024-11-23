@@ -15,12 +15,14 @@ function AdminLogin() {
             required
           />
           <input type="password" placeholder="Enter Admin Password" required />
+          <Link to="/admin-dashboard">
           <button
             type="submit"
             style={{ fontFamily: "poppins", fontWeight: 500 }}
           >
-            Admin Log In
+           Admin Log In
           </button>
+          </Link>
         </form>
         <div className="admin-login-footer">
           <p style={{ fontFamily: "poppins" }}>
@@ -35,7 +37,7 @@ function AdminLogin() {
         </div>
       </div>
       <div className="admin-signup-image">
-        <img src="adminsignupimg.jpg" alt="Admin Login Illustration" />
+        <img src="signupimg.jpg" alt="Admin Login Illustration" />
       </div>
     </div>
   );
